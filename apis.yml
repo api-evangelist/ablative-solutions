@@ -1,7 +1,18 @@
 aid: ablative-solutions
 name: Ablative Solutions
-description: 'Ablative Solutions is a company surfaced via the API Evangelist harvest backlog (source:
-  secondary-market) and added to the network as a stub for full-pipeline profiling.'
+description: 'Ablative Solutions, Inc. is a privately held, clinical-stage medical device
+  company founded in 2011 and headquartered in Kalamazoo, Michigan, with offices in San
+  Jose, California. It develops the Peregrine System, a percutaneous catheter platform
+  that performs chemical renal denervation by infusing dehydrated alcohol into the
+  perivascular space around the renal arteries to deactivate surrounding sympathetic
+  nerves, as a treatment for systemic and uncontrolled hypertension. The Peregrine System
+  Infusion Catheter holds FDA 510(k) clearance for infusion of diagnostic and therapeutic
+  agents into the perivascular area of the peripheral vasculature; the Peregrine System
+  Kit remains an investigational product under clinical study in the United States and
+  has received FDA Breakthrough Device Designation for drug-resistant hypertension. The
+  company is certified to ISO 13485. Ablative Solutions publishes a small corporate and
+  clinical-information website only; it operates no developer program, public API,
+  documentation portal, or machine-readable specifications.'
 url: https://raw.githubusercontent.com/api-evangelist/ablative-solutions/refs/heads/main/apis.yml
 x-type: company
 x-source: harvest:secondary-market
@@ -12,6 +23,13 @@ created: '2026-08-06'
 modified: '2026-08-06'
 tags:
 - Company
+- Medical Devices
+- Health
+- Hypertension
+- Renal Denervation
+- Cardiovascular
+- Clinical Research
+- Life Sciences
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -20,4 +38,48 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
+  url: http://ablativesolutions.com/us/
+- type: About
+  url: http://ablativesolutions.com/us/about/
+- type: Contact
+  url: http://ablativesolutions.com/us/contact/
+- type: PrivacyPolicy
+  url: http://ablativesolutions.com/us/privacy-policy/
+- type: TermsOfService
+  url: http://ablativesolutions.com/us/wp-content/uploads/2016/08/Online-Terms-Conditions-10712019_1.pdf
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ablative-solutions
+- type: SecondaryMarket
   url: https://forgeglobal.com/ablative-solutions_stock/
+- type: DomainSecurity
+  url: security/ablative-solutions-domain-security.yml
+- type: LLMsTxt
+  url: llms/ablative-solutions-llms.txt
+x-enrichment:
+  date: '2026-08-06'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
+x-coverage:
+  state: none
+  reason: not-a-software-company
+  detail: Ablative Solutions is a 16-person clinical-stage medical device manufacturer whose
+    product is the Peregrine System renal denervation catheter; its entire web presence is a
+    five-page WordPress brochure split into /us/ and /in/ locales, with no developer, API,
+    or documentation section anywhere in the navigation.
+  evidence:
+  - url: http://ablativesolutions.com/us/
+    status: 200
+  - url: http://ablativesolutions.com/us/wp-json/
+    status: 404
+  - url: http://ablativesolutions.com/us/openapi.json
+    status: 404
+  - url: http://ablativesolutions.com/llms.txt
+    status: 404
+  - url: http://ablativesolutions.com/.well-known/security.txt
+    status: 404
+  - url: http://ablativesolutions.com/.well-known/agent-card.json
+    status: 404
+  - url: https://api.github.com/orgs/ablativesolutions
+    status: 404
+  checked: '2026-08-06'

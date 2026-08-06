@@ -1,0 +1,50 @@
+# Ablative Solutions
+
+> Ablative Solutions, Inc. is a privately held, clinical-stage medical device company
+> founded in 2011, headquartered in Kalamazoo, Michigan with offices in San Jose,
+> California. It develops the Peregrine System, a percutaneous catheter platform that
+> performs chemical renal denervation by infusing dehydrated alcohol into the perivascular
+> space around the renal arteries to deactivate surrounding sympathetic nerves, as a
+> treatment for systemic and uncontrolled hypertension. The company is certified to
+> ISO 13485.
+
+<!--
+generated: '2026-08-06'
+method: generated
+source: apis.yml + probed pages on ablativesolutions.com
+Provider publishes no llms.txt of its own; /llms.txt returned 404 on every host probed.
+-->
+
+## APIs
+
+Ablative Solutions publishes no public API. No developer portal, API documentation,
+API reference, SDK, package, CLI, MCP server, agent card, or machine-readable
+specification (OpenAPI, AsyncAPI, JSON Schema, GraphQL SDL) was found on any host.
+
+## Company
+
+- [Home (US)](http://ablativesolutions.com/us/): Corporate site for the United States audience.
+- [Home (International)](http://ablativesolutions.com/in/): Corporate site for audiences outside the United States.
+- [About](http://ablativesolutions.com/us/about/): Company history, ISO 13485 certification, and leadership team.
+- [Company](http://ablativesolutions.com/us/company/): Company overview.
+- [Contact](http://ablativesolutions.com/us/contact/): General, clinical-study, and postal contact details.
+
+## Clinical
+
+- [About Hypertension](http://ablativesolutions.com/us/about-hypertension/): Background on hypertension and its treatment.
+- [Systemic vs. Uncontrolled Hypertension](http://ablativesolutions.com/us/systemic-vs-uncontrolled-hypertension/): The Peregrine System, the renal denervation procedure, and clinical studies.
+
+## Legal
+
+- [Privacy Policy](http://ablativesolutions.com/us/privacy-policy/)
+- [Online Terms and Conditions (PDF)](http://ablativesolutions.com/us/wp-content/uploads/2016/08/Online-Terms-Conditions-10712019_1.pdf)
+
+## Notes
+
+- HTTPS on ablativesolutions.com presents a self-signed certificate and fails
+  verification; every page above was reached over HTTP. See
+  `security/ablative-solutions-domain-security.yml`.
+- The Peregrine System Infusion Catheter holds FDA 510(k) clearance for infusion of
+  diagnostic and therapeutic agents into the perivascular area of the peripheral
+  vasculature. The Peregrine System Kit is an investigational product not approved in
+  the United States and is limited to investigational use in clinical studies.
